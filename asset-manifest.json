@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Profile/static/css/main.bf7b28c2.css",
+    "main.js": "/Profile/static/js/main.f1344dc9.js",
+    "static/js/453.d73b0aaa.chunk.js": "/Profile/static/js/453.d73b0aaa.chunk.js",
+    "static/media/E-Voting System Using BlockChain.pdf": "/Profile/static/media/E-Voting System Using BlockChain.ff4215430f1b35d49a41.pdf",
+    "static/media/download.gif": "/Profile/static/media/download.27f34dbac97b23698b69.gif",
+    "static/media/Santosh Vishwakarma Resume.pdf": "/Profile/static/media/Santosh Vishwakarma Resume.9f061de571ea5bcc3014.pdf",
+    "index.html": "/Profile/index.html",
+    "main.bf7b28c2.css.map": "/Profile/static/css/main.bf7b28c2.css.map",
+    "main.f1344dc9.js.map": "/Profile/static/js/main.f1344dc9.js.map",
+    "453.d73b0aaa.chunk.js.map": "/Profile/static/js/453.d73b0aaa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf7b28c2.css",
+    "static/js/main.f1344dc9.js"
+  ]
+}
