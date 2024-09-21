@@ -24,6 +24,8 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
     <title>React App</title>
   </head>
   <body>
@@ -39,5 +41,39 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script>
+      document.querySelectorAll('nav a').forEach(anchor => {
+          anchor.addEventListener('click', function(e) {
+              e.preventDefault();
+              const target = document.querySelector(this.getAttribute('href'));
+              target.scrollIntoView({ behavior: 'smooth' });
+          });
+      });
+  
+      // Handle wheel scrolling
+      window.addEventListener('wheel', (e) => {
+          e.preventDefault(); // Prevent default scrolling
+          const delta = e.deltaY; // Scroll direction
+          const sections = document.querySelectorAll('section');
+          const activeSection = document.elementFromPoint(window.innerWidth / 2, window.innerHeight / 2).closest('section');
+  
+          if (delta > 0) {
+              // Scroll down
+              const nextSection = activeSection.nextElementSibling;
+              if (nextSection) {
+                  nextSection.scrollIntoView({ behavior: 'smooth' });
+              }
+          } else {
+              // Scroll up
+              const prevSection = activeSection.previousElementSibling;
+              if (prevSection) {
+                  prevSection.scrollIntoView({ behavior: 'smooth' });
+              }
+          }
+      });
+  </script>
+
   </body>
 </html>
