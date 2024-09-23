@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Profile/static/css/main.db40d6a4.css",
-    "main.js": "/Profile/static/js/main.36f865d6.js",
+    "main.css": "/Profile/static/css/main.dd4628de.css",
+    "main.js": "/Profile/static/js/main.f6e8e50c.js",
     "static/js/453.d73b0aaa.chunk.js": "/Profile/static/js/453.d73b0aaa.chunk.js",
     "static/media/E-Voting System Using BlockChain.pdf": "/Profile/static/media/E-Voting System Using BlockChain.ff4215430f1b35d49a41.pdf",
     "static/media/download.gif": "/Profile/static/media/download.27f34dbac97b23698b69.gif",
     "static/media/Santosh Vishwakarma Resume.pdf": "/Profile/static/media/Santosh Vishwakarma Resume.9f061de571ea5bcc3014.pdf",
     "index.html": "/Profile/index.html",
-    "main.db40d6a4.css.map": "/Profile/static/css/main.db40d6a4.css.map",
-    "main.36f865d6.js.map": "/Profile/static/js/main.36f865d6.js.map",
+    "main.dd4628de.css.map": "/Profile/static/css/main.dd4628de.css.map",
+    "main.f6e8e50c.js.map": "/Profile/static/js/main.f6e8e50c.js.map",
     "453.d73b0aaa.chunk.js.map": "/Profile/static/js/453.d73b0aaa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.db40d6a4.css",
-    "static/js/main.36f865d6.js"
+    "static/css/main.dd4628de.css",
+    "static/js/main.f6e8e50c.js"
   ]
 }
